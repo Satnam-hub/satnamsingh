@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #0C80A1;
+  padding-right:520px;
+  
+  
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+.content {
+  padding: 16px;
+
+  
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+.sticky + .content {
+  padding-top: 60px;
+      padding-right:350px;
+}
+    .tiles{
+        text-align: center;
+        float:right;
+        width: 400px;
+        height: 500px;
+    }
+    .test{
+        font-family: serif;
+        font-size: 22px;
+    
+        
+    }
+    .imgtiles
+    {
+        height: 250px;
+        width: 380px;
+    }
+    .p{
+        font-size: 17px;
+        padding: 7px;
+        width: 350px;
+        font-family: serif;
+    }
+    
+    #details{
+        margin-left: 150px;
+        font-size: 18px;
+        font-family: serif;
+    }
+    
+    .fa {
+  padding: 20px;
+  font-size: 17px;
+  width: 17px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+    
+    
+</style>
+</head>
+<body>
+    <div class="header">
+  <h2 style="font-family:neuropolitical">Satnam Singh</h2>
+  
+</div>
+
+<div id="navbar">
+  <a class="active" href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="index.html">Home</a>
+</div>
+    <br/>
+     <p style="font-family: serif; font-size: 35px; text-align: center;">
+About
+    </p>
+    <img src="satnam_singh-1.jpeg" style="border-radius: 50%; margin-left: 490px; width: 270px; height:350px;">
+    
+    
+    <p id="details">
+    <b><u style="font-size: 20px">Professional Details</u></b><br/><br/>
+        Hi! I just start my career in the field of designing and developing so I don’t have much experience in the field,<br/> while doing graduating on Information Technology and doing advance websites developing, <br/>got many experiences, which always boost me up and gave me chance to learn new.<br/>
+<br/>
+MAY BE I DO NOT KNOW EVERYTHING BUT I KNOW HOW TO LEARN AND DO EVERYTHING 🙂
+        <br/><br/>
+        
+        <b><u style="font-size: 20px">Educational Details</u></b><br/><br/>
+        I have done my graduation in the stream of Information Technology (B.Sc – IT) from GNDU University Amritsar, Punjab.<br/> To polish my skills and interest ,I have done WEB design & development studies from CDI college ,Montreal.
+        <br/><br/>
+        <b><u style="font-size: 20px">Personal strengths & Skills</u></b><br/><br/>
+        
+            * Positive thinking & leaderships<br/>
+            * Great learning skills by observation<br/>
+            * Excellent Communication with more than three Languages<br/>
+            * Good Problem solving skills<br/>
+            * Always Try to grab information and skills with open mind.<br/>
+            <br/><br/>
+        <b><u style="font-size: 20px">Rewards & Recognitions</u></b><br/><br/>
+        
+        * I am silver medallist in the of field Information Technology from GNDU University<br/>
+        * Have done Web developer and design course from CDI college<br/>
+        * Certified Web developer and design from google<br/>
+        * Certification of MS Office from Microsoft<br/>
+        <br/><br/>
+    </p>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    <div style="background-color: #0C80A1; width: 100%; height: 180px;">
+        <div style="float: left">
+        <p style="color: white; font-family: serif;margin: 18px;">Satnam Singh</p>
+            <p  style="color: white; font-family: serif;font-size: 15px; margin: 18px;">352 Rue Trudeau ,<br/>
+Montreal,CA<br/>
+satnam.singh_45@yahoo.com<br/>
++1 (514)-702-9481</p>
+        </div>
+        
+        <div style="float: right;margin: 35px;">
+        <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-yahoo"></a>
+        </div>
+    </div>
+    
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  
+}
+</script>
+
+</body>
+</html>

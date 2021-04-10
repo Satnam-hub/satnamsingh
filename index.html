@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #0C80A1;
+  padding-right:520px;
+  
+  
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+.content {
+  padding: 16px;
+
+  
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+.sticky + .content {
+  padding-top: 60px;
+      padding-right:350px;
+}
+    .tiles{
+        text-align: center;
+        float:right;
+        width: 400px;
+        height: 500px;
+    }
+    .test{
+        font-family: serif;
+        font-size: 22px;
+    
+        
+    }
+    .imgtiles
+    {
+        height: 250px;
+        width: 380px;
+    }
+    .p{
+        font-size: 17px;
+        padding: 7px;
+        width: 350px;
+        font-family: serif;
+    }
+    
+    
+    .fa {
+  padding: 20px;
+  font-size: 17px;
+  width: 17px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+    
+    
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2 style="font-family:neuropolitical">Satnam Singh</h2>
+  
+</div>
+
+<div id="navbar">
+  <a class="active" href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="index.html">Home</a>
+</div>
+<div>
+    <img src="cover.png" width="100%" height="400px">
+    </div>
+    <div style="padding: 70px;">
+     <p style="font-family: serif; font-size: 35px; margin-right:100px;">More Than Your Average Agency</p>
+        <P style="font-family: serif; font-size: 20px; margin-right:20px;">We deliver outstanding results across 3 key business areas: Logo design, Web design, and Web Development.</P>
+    </div>
+    <div>
+    <div class="tiles">
+        <p class="test">Logo Design</p>
+        <img class="imgtiles" src="logo.jpg"/>
+        <p class="p">We help companies define a clear brand identity and we showcase It in their Logo. Which represents their company on the front of entire word.
+
+</p>
+    </div>
+    <div class="tiles">
+        <p class="test">Web Design</p>
+        <img class="imgtiles" src="web_design.jpg">
+        <p class="p">Experts in web design, we craft award-winning and cutting-edge online experiences. which give you perfect user interface and experience.</p>
+    </div>
+    <div class="tiles">
+        <p class="test">Web Developing</p>
+        <img class="imgtiles" src="web_develoment.png">
+        <p class="p">From developing a marketing strategy to managing campaigns, we can handle all back and front end development for your brand while marketing and advertising on the Web.</p>
+    </div>
+        </div>
+    <br/>
+    <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+    
+    
+    
+    <div style="background-color: #0C80A1; width: 100%; height: 180px;">
+        <div style="float: left">
+        <p style="color: white; font-family: serif;margin: 18px;">Satnam Singh</p>
+            <p  style="color: white; font-family: serif;font-size: 15px; margin: 18px;">352 Rue Trudeau ,<br/>
+Montreal,CA<br/>
+satnam.singh_45@yahoo.com<br/>
++1 (514)-702-9481</p>
+        </div>
+        
+        <div style="float: right;margin: 35px;">
+        <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-yahoo"></a>
+        </div>
+    </div>
+    
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  
+}
+</script>
+
+</body>
+</html>

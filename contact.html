@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #0C80A1;
+  padding-right:520px;
+  
+  
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+.content {
+  padding: 16px;
+
+  
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+.sticky + .content {
+  padding-top: 60px;
+      padding-right:350px;
+}
+    .tiles{
+        text-align: center;
+        float:right;
+        width: 400px;
+        height: 500px;
+    }
+    .test{
+        font-family: serif;
+        font-size: 22px;
+    
+        
+    }
+    .imgtiles
+    {
+        height: 250px;
+        width: 380px;
+    }
+    .p{
+        font-size: 17px;
+        padding: 7px;
+        width: 350px;
+        font-family: serif;
+    }
+    
+    
+    .fa {
+  padding: 20px;
+  font-size: 17px;
+  width: 17px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+    
+    
+    
+    
+    
+    
+    
+    .notification_error {
+	border: 1px solid #A25965;
+	height: auto;
+	width: 90%;
+	padding: 4px;
+	background: #F8F0F1;
+	text-align: left;
+	-moz-border-radius: 5px;
+}
+
+.notification_ok {
+	border: 1px #567397 solid;
+	height: auto;
+	width: 90%
+	padding: 8px;
+	background: #f5f9fd;
+	text-align: center;
+	-moz-border-radius: 5px;
+}
+
+.info_fieldset { -moz-border-radius: 7px; border: 1px #dddddd solid; }
+
+.info_fieldset legend {
+	border: 1px #dddddd solid;
+	color: black; 
+
+	font: 13px Verdana;
+
+	padding: 2px 5px 2px 5px;
+	-moz-border-radius: 3px;
+}
+
+.button {
+	border: 1px solid #999999;
+	border-top-color: #CCCCCC;
+	border-left-color: #CCCCCC; 
+
+	background: white;
+
+	color: #333333; 
+
+	font: 11px Verdana, Helvetica, Arial, sans-serif;
+
+	-moz-border-radius: 3px;
+}
+
+/* Label */
+label {width: 140px; padding-left: 20px; margin: 5px; float: left; text-align: left;}
+
+/* Input, Textarea */
+input, textarea {
+	margin: 5px;
+	padding: 0px;
+	float: left;
+
+	border: 1px solid #999999;
+	border-top-color: #CCCCCC;
+	border-left-color: #CCCCCC; 
+
+	color: #333333; 
+
+	font: 11px Verdana, Helvetica, Arial, sans-serif;
+
+	-moz-border-radius: 3px;
+}
+
+    br { clear: left; }
+    
+    
+    
+</style>
+</head>
+<body>
+    
+     <div class="header">
+  <h2 style="font-family:neuropolitical">Satnam Singh</h2>
+  
+</div>
+
+<div id="navbar">
+  <a class="active" href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="index.html">Home</a>
+</div>
+    <br/>
+    
+    <div align="center">
+ 
+		
+		 
+		<div align="left" style="width: 500px;">
+		 
+		<fieldset class="info_fieldset"><legend>Contact</legend>
+		 
+		<div id="note"></div>
+		<div id="fields">
+		 
+		<form id="ajax-contact-form" action="">
+			<label>Name</label><input class="textbox" type="text" name="name" value=""><br />
+			 
+			<label>E-Mail</label><input class="textbox" type="text" name="email" value=""><br />
+			 
+			<label>Subject</label><input class="textbox" type="text" name="subject" value=""><br />
+			 
+			<label>Comments</label><textarea class="textbox" NAME="message" ROWS="5" COLS="25"></textarea><br />
+			 
+			<label>&nbsp;</label><input class="button" type="submit" name="submit" value="Send Message">
+		</form>
+		 
+		</div>
+		 
+		</fieldset>
+		 
+		</div>
+ 
+    </div>
+    
+    <br/><br/>
+    <div style="background-color: #0C80A1; width: 100%; height: 180px;">
+        <div style="float: left">
+        <p style="color: white; font-family: serif;margin: 18px;">Satnam Singh</p>
+            <p  style="color: white; font-family: serif;font-size: 15px; margin: 18px;">352 Rue Trudeau ,<br/>
+Montreal,CA<br/>
+satnam.singh_45@yahoo.com<br/>
++1 (514)-702-9481</p>
+        </div>
+        
+        <div style="float: right;margin: 35px;">
+        <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-yahoo"></a>
+        </div>
+    </div>
+    
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  
+}
+    
+    
+    
+     <script type="text/javascript" src="jquery-1.2.6.min.js"></script>
+	 
+	 <script type="text/javascript">
+	 // we will add our javascript code here           
+	 
+	 jQuery(document).ready(function($) {
+
+		$("#ajax-contact-form").submit(function() {
+			// 'this' refers to the current submitted form
+			var str = $(this).serialize();
+		 
+		   	$.ajax({
+			   type: "POST",
+			   url: "contact.php",
+			   data: str,
+		   	
+		   	   success: function(msg) {	 
+					// Message Sent? Show the 'Thank You' message and hide the form 
+					if(msg == 'OK')
+					{
+						result = '<div class="notification_ok">Your message has been sent. Thank you!</div>';
+						$("#fields").hide();
+					} else {
+						result = msg;
+					}
+
+					$("#note").html(result);
+			    }
+		    });
+		 
+			return false;
+		});
+	});
+</script>
+
+</body>
+</html>
